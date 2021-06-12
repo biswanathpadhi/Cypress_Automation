@@ -46,7 +46,7 @@ describe.skip("Traverse parent chilid", () => {
   });
 });
 
-describe.only("Rahul Shetty Academy", () => {
+describe.skip("Rahul Shetty Academy", () => {
   before("Rahul Shetty Academy visit", () => {
     cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
   });
