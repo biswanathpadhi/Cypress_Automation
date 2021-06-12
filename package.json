@@ -1,0 +1,17 @@
+{
+  "name": "biswa_cypress",
+  "version": "1.0.0",
+  "description": "This is a sample cypress test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "cy:open": "npx cypress open",
+    "test:dash": "npx cypress run --spec 'cypress/integration/practice/ProductPageTests.spec.js'"
+  },
+  "author": "Biswa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "typescript": "^4.2.4"
+  }
+}

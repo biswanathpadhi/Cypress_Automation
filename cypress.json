@@ -1,0 +1,7 @@
+{
+    "integrationFolder": "cypress/integration/practice/",
+    "env": {
+        "e": "qa"
+    },
+    "projectId": "dn1x76"
+}
